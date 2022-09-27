@@ -1,1 +1,1 @@
-![screenshot](cse15lsc.png)
+![Image](cse15lsc.png)
