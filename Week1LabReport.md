@@ -1,25 +1,24 @@
 Kayla Mochizuki 
 A02
 A16763664
-## Week 1 Lab Report
+Week 1 Lab Report
 
 This is a tutorial on how to log into a course specific account remotely using ieng.
 
-## **PART 1: Install VScode**
+PART 1: Install VScode
 
-Link: [Link](https://code.visualstudio.com/download)
+Link: https://code.visualstudio.com/download
 
-- Download the correct version for your computer
+Download the correct version for your computer
 
 ![screenshot](Lab1img1.png)
 
+After downloading, your VScode should appear similarly to the one above
 
-- After downloading, your VScode should appear similarly to the one above
 
+PART 2: Remotely Connecting
 
-## **PART 2: Remotely Connecting**
-
-Before remotely connecting, you must first change your password for cse15 using this link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
+Before remotely connecting, you must first change your password for cse15 using this link: https://sdacs.ucsd.edu/~icc/index.php 
 After logging into your account, click under “Additional Accounts” the one for cs15l
 
 Now, click on “change your password”
@@ -31,6 +30,8 @@ If you do not want to change the password you use in MyTritonLink, make sure to 
 
 If you have done the above, position your cursor at the end of your confirm password and click return/enter
 
+![screenshot](Lab1img3.png)
+
 
 Your password change may take 15 minutes to process before you are able to try connecting remotely
 
@@ -40,10 +41,10 @@ Your password change may take 15 minutes to process before you are able to try c
 
 To begin Remotely connecting, open a terminal
 
-
+![screenshot](Lab1img2.png)
 
 Type in the command: ssh coursespecific_accountname@ieng.ucsd.edu
-Your course specific account name can be found through this link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
+Your course specific account name can be found through this link: https://sdacs.ucsd.edu/~icc/index.php 
 Under “Additional Accounts” the one for cse15l is your username
 
 
@@ -61,7 +62,7 @@ This should be the one you just made
 When typing in your password it will look like this nothing is happening on your screen, however even though you can’t see it happening, you are typing in your password
 
 
-## **PART 3: Trying Some Commands**
+PART 3: Trying Some Commands
 
 
 
