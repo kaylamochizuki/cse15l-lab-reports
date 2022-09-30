@@ -92,6 +92,25 @@ class WhereAmI {
 - Using ls, you will now see that WhereAmI is in your directory
 	
 ## PART 5: Setting a SSH key
+	
+- If you are currently Remotely connect:
+	- In your terminal control + D to logout
+
+- You should now be working locally
+- In your terminal write the command: ssh-keygen
+- Your terminal should now have "Enter file in which to save the key" with something in parentheses following
+	- you will then copy the part in parentheses and paste it into your terminal
+	OR
+	- you can simply press enter on your keyboard 
+	 	- this created a private and public file (the public file is the one with .pub)
+- Now, remotely connect using the same method used earlier
+- In your terminal, write: mkdir .ssh
+- Logout using control + D
+- In your terminal write: scp <public file name> coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
+- You now will no longer need to enter a password when loging in remotely
+
+	
+
 
 
 
