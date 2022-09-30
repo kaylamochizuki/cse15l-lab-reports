@@ -114,11 +114,12 @@ class WhereAmI {
 ## PART 6: Optimizing Remote Running
 
 Some useful shortcuts to use when working remotely:
+	
 	- writing a command in quotes will run it directly
 	- you can use semicolon to run commands on one line
 	- ex)
 		
-		![screenshot](Lab1img6.png)
+![screenshot](Lab1img6.png)
 
 	
 
