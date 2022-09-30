@@ -108,6 +108,17 @@ class WhereAmI {
 - Logout using control + D
 - In your terminal write: scp <public file name> coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
 - You now will no longer need to enter a password when loging in remotely
+	
+	![screenshot](Lab1img5.png)
+	
+## PART 6: Optimizing Remote Running
+
+Some useful shortcuts to use when working remotely:
+	- writing a command in quotes will run it directly
+	- you can use semicolon to run commands on one line
+	- ex)
+		
+		![screenshot](Lab1img6.png)
 
 	
 
