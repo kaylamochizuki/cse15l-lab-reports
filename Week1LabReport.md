@@ -62,6 +62,7 @@ Notes:
 
 - To make a new directory, use: mkdir 
 	- To name the directory: mkdir name_you_want
+		- ex) if you want your file name to be hello, write: mkdir hello
 - To look at all the files in the directory, use: ls
 - To find what file you are currently in, use: pwd
 - To change what file you are currently located in, use: cd
