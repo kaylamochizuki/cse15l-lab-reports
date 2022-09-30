@@ -11,7 +11,7 @@ Link: [Link](https://code.visualstudio.com/download)
 
 - Download the correct version for your computer
 
-![screenshot](screenshot.png)
+![screenshot](Lab1img1.png)
 
 
 - After downloading, your VScode should appear similarly to the one above
