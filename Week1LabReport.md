@@ -68,6 +68,30 @@ Notes:
 - To print out the contents of a file, use: cat <file>
 
 ## PART 4: Moving files with scp
+	
+- If you are currently Remotely connect:
+	- In your terminal control + D to logout
+
+- You should now be working locally
+- Create a WhereAmI.java file with the following code:
+
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+	
+- In your terminal write the following commands:
+	![screenshot](Lab1img4.png)
+- Now using scp, in your terminal write: scp WhereAmI.java coursespecific_accountname@ieng.ucsd.edu:~/
+	- When prompted, type in password
+- You will then relogin to the remote computer using ssh the same way that was done earlier
+- Using ls, you will now see that WhereAmI is in your directory
+	
+## PART 5: Setting a SSH key
 
 
 
