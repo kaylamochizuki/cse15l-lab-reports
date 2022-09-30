@@ -61,11 +61,11 @@ Notes:
 ## PART 3: Trying Some Commands
 
 - To make a new directory, use: mkdir 
-	- To name the directory: mkdir <name>
+	- To name the directory: mkdir name_you_want
 - To look at all the files in the directory, use: ls
 - To find what file you are currently in, use: pwd
 - To change what file you are currently located in, use: cd
-- To print out the contents of a file, use: cat <file>
+- To print out the contents of a file, use: cat file_name
 
 ## PART 4: Moving files with scp
 	
@@ -106,7 +106,7 @@ class WhereAmI {
 - Now, remotely connect using the same method used earlier
 - In your terminal, write: mkdir .ssh
 - Logout using control + D
-- In your terminal write: scp <public file name> coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
+- In your terminal write: scp public_file_name coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
 - You now will no longer need to enter a password when loging in remotely
 	
 	![screenshot](Lab1img5.png)
