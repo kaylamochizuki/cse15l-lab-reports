@@ -101,7 +101,7 @@ class WhereAmI {
 - In your terminal write the command: ssh-keygen
 - Your terminal should now have "Enter file in which to save the key" with something in parentheses following
 	- you will then copy the part in parentheses and paste it into your terminal
-	OR
+	- OR
 	- you can simply press enter on your keyboard 
 	 	- this created a private and public file (the public file is the one with .pub)
 - Now, remotely connect using the same method used earlier
