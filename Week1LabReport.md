@@ -1,6 +1,6 @@
 Kayla Mochizuki 
 A02
-A16763664
+
 ## **Week 1 Lab Report**
 
 This is a tutorial on how to log into a course specific account remotely using ieng.
