@@ -46,6 +46,7 @@ Link: https://code.visualstudio.com/download
 
 
 Notes:
+
 	- If you are prompter with a yes or no question, choose yes
 	- If your password doesn’t work, try again to make sure you typed it in correctly
 	- If you still can’t login and 15 minutes have passed, try using instead of your course specific username, your MyTritonLink username
