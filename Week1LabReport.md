@@ -43,8 +43,9 @@ Link: https://code.visualstudio.com/download
 ```
 ssh coursespecific_accountname@ieng.ucsd.edu
 ```
-	- Your course specific account name can be found through this link: https://sdacs.ucsd.edu/~icc/index.php 
-	- Under “Additional Accounts” the one for cse15l is your username
+
+- Your course specific account name can be found through this link: https://sdacs.ucsd.edu/~icc/index.php 
+- -Under “Additional Accounts” the one for cse15l is your username
 
 
 
