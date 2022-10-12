@@ -79,7 +79,7 @@ Notes:
 
 - You should now be working locally
 - Create a WhereAmI.java file with the following code:
-
+```
 class WhereAmI {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
@@ -88,7 +88,7 @@ class WhereAmI {
     System.out.println(System.getProperty("user.dir"));
   }
 }
-	
+```	
 - In your terminal write the following commands:
 	![screenshot](Lab1img4.png)
 - Now using scp, in your terminal write: scp WhereAmI.java coursespecific_accountname@ieng.ucsd.edu:~/
@@ -112,7 +112,10 @@ class WhereAmI {
 - Now, remotely connect using the same method used earlier
 - In your terminal, write: mkdir .ssh
 - Logout using control + D
-- In your terminal write: scp public_file_name coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
+- In your terminal write: 
+```
+scp public_file_name coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_keys
+```
 - You now will no longer need to enter a password when loging in remotely
 	
 	![screenshot](Lab1img5.png)
