@@ -92,7 +92,10 @@ class WhereAmI {
 ```	
 - In your terminal write the following commands:
 	![screenshot](Lab1img4.png)
-- Now using scp, in your terminal write: scp WhereAmI.java coursespecific_accountname@ieng.ucsd.edu:~/
+- Now using scp, in your terminal write: 
+```
+scp WhereAmI.java coursespecific_accountname@ieng.ucsd.edu:~/
+```
 	- When prompted, type in password
 - You will then relogin to the remote computer using ssh the same way that was done earlier
 - Using ls, you will now see that WhereAmI is in your directory
