@@ -61,19 +61,19 @@ class SearchEngine {
 
 - my method handleRequest is being called
 - the relevent arguments to my method are "/add", "s", "=" and "pineapple"
-- the argument "pineapple" is added to alst
+- the argument "pineapple" is added to alst once SearchEngine is done processing
 
 ![screenshot](searchEngineAddApple.png)
 
 - my method handleRequest is being called
 - the relevent arguments to my method are "/add", "s", "=", and "apple"
-- the argument "apple" is added to alst
+- the argument "apple" is added to alst once SearchEngine is done processing
 
 ![screenshot](searchEngineSearchApp.png)
 
 - my method handleRequest is being called
 - the relevent arguments to my method are "/search", "=", and "app"
-- none of the arguments are changed once SearchEngine is down processing
+- none of the arguments are changed once SearchEngine is done processing
 
 
 ---
