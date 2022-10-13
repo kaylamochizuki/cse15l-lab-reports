@@ -10,7 +10,7 @@ Kayla Mochizuki
 
 ## Part 2
 
-Bug 1 From ArrayExamples: method reverseInPlace
+**Bug 1 From ArrayExamples: method reverseInPlace**
 
 Failure inducing input:
 ```
@@ -29,7 +29,7 @@ Correlation: Once the for loop tried to change the later half of the array, the 
 
 ---
 
-Bug 2 From ListExamples: method merge
+**Bug 2 From ListExamples: method merge**
 
 Failure inducing inputs:  
 ```
