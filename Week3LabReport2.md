@@ -37,6 +37,7 @@ List<String> input1 = Arrays.asList("a", "b", "d");
 List<String> input2 = Arrays.asList("c", "e"); 
 ```
 Symptom(actual output): Java heap space
+
 Expected:
 ```
 ["a","b","c","d","e"]
