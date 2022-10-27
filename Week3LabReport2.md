@@ -109,17 +109,25 @@ Correlation: Once the for loop tried to change the later half of the array, the 
 **Bug 2 From ListExamples: method merge**
 
 Failure inducing inputs:  
-```
-List<String> input1 = Arrays.asList("a", "b", "d"); 
-List<String> input2 = Arrays.asList("c", "e"); 
-```
-Symptom(actual output): Java heap space
+
+![screenshot](junitTestTM.png)
+
+Symptom(actual output): 
+
+![screenshot](TMOutputU.png)
 
 Expected:
 ```
 ["a","b","c","d","e"]
 ```
 Bug: The index1 count was counting in places it shouldn't be. In the 3rd while loop in the code it should've been adding 1 to index2 but was instead adding 1 to index1.
+
+![screenshot](MBadCode.png)
+
+Fixed Code:
+
+![screenshot](MFixedCode.png)
+
 
 Correlation: Because index2 was not being added, the while loop countinued running because it never reached the condition for it to end.
 
