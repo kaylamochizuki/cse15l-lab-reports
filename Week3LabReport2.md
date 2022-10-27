@@ -83,9 +83,11 @@ class SearchEngine {
 **Bug 1 From ArrayExamples: method reverseInPlace**
 
 Failure inducing input:
+
 ![screenshot](junitTestRIP.png)
 
-Symptom(actual output):  
+Symptom(actual output): 
+
 ![screenshot](junitTestRIPOutput.png)
 
 Expected: 
@@ -93,9 +95,11 @@ Expected:
 {3,2,1}
 ```
 Bug: The for loop is trying to change the elements one at a time. I had to make it where the elements on opposite sides would switch with each other, so I would be changing two elements at a time.
+
 ![screenshot](RIPCode.png)
 
 Fixed Code:
+
 ![screenshot](RIPFixedCode.png)
 
 Correlation: Once the for loop tried to change the later half of the array, the first halves elements are already changed, so the later halves elements will stay the same. This means that instead of the values flipping, only one side is changing it's value.
