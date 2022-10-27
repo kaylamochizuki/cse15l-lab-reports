@@ -60,19 +60,19 @@ class SearchEngine {
 ![screenshot](searchEngineAddPineapple.png)
 
 - my method handleRequest is being called
-- the relevent arguments to my method are "/add", "s", "=" and "pineapple"
+- the relevent argument to my method is the URL which in this case is localhost:4002/add?s=pineapple
 - the argument "pineapple" is added to alst once SearchEngine is done processing
 
 ![screenshot](searchEngineAddApple.png)
 
 - my method handleRequest is being called
-- the relevent arguments to my method are "/add", "s", "=", and "apple"
+- the relevent argument to my method is the URL which in this case is localhost:4002/add?s=apple
 - the argument "apple" is added to alst once SearchEngine is done processing
 
 ![screenshot](searchEngineSearchApp.png)
 
 - my method handleRequest is being called
-- the relevent arguments to my method are "/search", "=", and "app"
+- the relevent arguments to my method is localhost:4002/search?s=app
 - none of the arguments are changed once SearchEngine is done processing
 
 
@@ -83,18 +83,20 @@ class SearchEngine {
 **Bug 1 From ArrayExamples: method reverseInPlace**
 
 Failure inducing input:
-```
-int[] input1 = {1,2,3};
-```
+![screenshot](junitTestRIP.png)
+
 Symptom(actual output):  
-```
-{3,2,3}
-```
+![screenshot](junitTestRIPOutput.png)
+
 Expected: 
 ```
 {3,2,1}
 ```
 Bug: The for loop is trying to change the elements one at a time. I had to make it where the elements on opposite sides would switch with each other, so I would be changing two elements at a time.
+![screenshot](RIPCode.png)
+
+Fixed Code:
+![screenshot](RIPFixedCode.png)
 
 Correlation: Once the for loop tried to change the later half of the array, the first halves elements are already changed, so the later halves elements will stay the same. This means that instead of the values flipping, only one side is changing it's value.
 
