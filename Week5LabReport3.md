@@ -220,7 +220,7 @@ output:
 
 This command shows files that match the word report even though one of the files has the R capitilized while the other does not. This is useful because it displays that if you are trying to search for multiple files containing a certain word but you didn't write them in the same format, you can still easily get all files.
 
-example 3:
+example 3)
 
 input:
 ```
