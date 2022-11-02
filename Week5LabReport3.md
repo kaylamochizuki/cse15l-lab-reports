@@ -142,7 +142,7 @@ output:
 
 This command gives all files in technical that are greater than 100000 bytes. This is useful because it shows that you can also sort by if a file size in greater and not just by smaller sizes.
 
-example 1)
+example 3)
 
 input:
 ```
