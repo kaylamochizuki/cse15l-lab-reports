@@ -33,7 +33,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command is finding all files in the sub directory 911report, of the main directory technical. This is useful because this command easily shows me all the files in my sub directory without me having to actually look through techincal myself.
+This command is finding all files in the sub-directory 911report, of the main directory technical. This is useful because this command easily shows me all the files in my sub-directory without me having to actually look through techincal myself.
 
 example 2)
 
@@ -64,7 +64,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command does the same as the command above and finds files in the sub directory 911report. This command is useful because shows that you can use * as a placeholder and that find can sort just by using 911report.
+This command does the same as the command above and finds files in the sub-directory 911report. This command is useful because shows that you can use * as a placeholder and that find can sort just by using 911report.
 
 example 3)
 
@@ -170,7 +170,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command gives the files in the sub directory 911report, that are less than 1 Mb. This command is useful because it displays that you can sort using different sizes like Mb and not just bytes(c) while at the same time as narrowing my search to a sub directory.
+This command gives the files in the sub-directory 911report, that are less than 1 Mb. This command is useful because it displays that you can sort using different sizes like Mb and not just bytes(c) while at the same time as narrowing my search to a sub directory.
 
 ---
 **3) find ./[directory name] -iname [file name]**
@@ -233,5 +233,5 @@ output:
 ./technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ```
 
-This command gives me the same files as the previous one but specifies that it's looking in the sub directory, government. This is useful because say if I want all files with the word report but I didn't format them all the same and don't know if there are report files in other directories, I can narrow my search at the same time as using a case insensitive search.
+This command gives me the same files as the previous one but specifies that it's looking in the-sub directory, government. This is useful because say if I want all files with the word report but I didn't format them all the same and don't know if there are report files in other directories, I can narrow my search at the same time as using a case insensitive search.
 
