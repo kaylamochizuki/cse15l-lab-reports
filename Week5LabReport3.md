@@ -170,7 +170,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command gives the files in the sub directory 911report, that are less than 1 Mb. This command is useful because it displays that you can not only look through subdirectories but also use different sizes like Mb.
+This command gives the files in the sub directory 911report, that are less than 1 Mb. This command is useful because it displays that you can sort using different sizes like Mb and not just bytes(c).
 
 ---
 **3) find ./[directory name] -iname [file name]**
