@@ -80,7 +80,7 @@ output:
 ./technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
 
-This command is finding all files in the sub-sub directory Alcohol_Problems that conatins Session. This is a useful command because it shows that I can go through multiple directories at once, as I went through technical to get to government and went through government to get to Alcohol_Problems.
+This command is finding all files in the sub-sub directory Alcohol_Problems that conatins Session. This is a useful command because it shows that I can go through multiple sub-directories at once, as I went through technical to get to government and went through government to get to Alcohol_Problems.
 
 ---
 **2) find ./[directory name] -type f -size [size amount]**
