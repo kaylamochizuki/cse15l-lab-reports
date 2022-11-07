@@ -140,7 +140,7 @@ output:
 ./technical/911report/chapter-12.txt
 ```
 
-This command gives all files in technical that are greater than 100000 bytes. This is useful because it shows that you can also sort by if a file size is greater than a certain value and not just if the size is smaller than like the example prior.
+This command gives all files in technical that are greater than 100000 bytes. This is useful because it shows that you can also sort by if a file size is greater than a certain size.
 
 example 3)
 
@@ -203,7 +203,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command shows all files that match the name chapter through a case insensitive search. This is useful because it shows that if you are looking for files but make a mistake with caps, it won't affect your search.
+This command shows all files that match the name chaptEr through a case insensitive search. This is useful because it shows that if you are looking for files but make a mistake in the command line, it won't affect your search.
 
 example 2)
 
@@ -218,7 +218,7 @@ output:
 ./technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ```
 
-This command shows files that match the word report even though one of the files has the R capitilized while the other does not. This is useful because it displays that if you are trying to search for multiple files containing a certain word but you didn't write them in the same format, you can still easily get all files.
+This command shows files that match the word report even though one of the files has the R capitilized while the other file does not and the command line argumant is also not capitialized. This is useful because it shows that the case insensitive search goes both ways.
 
 example 3)
 
@@ -233,5 +233,5 @@ output:
 ./technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 ```
 
-This command gives me the same files as the previous one but specifiys that it's looking in the sub directory, government. Say if I want all files with the word report but I didn't format them all the same and don't know if there are report files in other directories, I can narrow my search.
+This command gives me the same files as the previous one but specifies that it's looking in the sub directory, government. This is useful because say if I want all files with the word report but I didn't format them all the same and don't know if there are report files in other directories, I can narrow my search at the same time as using a case insensitive search.
 
