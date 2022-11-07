@@ -140,7 +140,7 @@ output:
 ./technical/911report/chapter-12.txt
 ```
 
-This command gives all files in technical that are greater than 100000 bytes. This is useful because it shows that you can also sort by if a file size is greater than a certain value and not just by smaller sizes.
+This command gives all files in technical that are greater than 100000 bytes. This is useful because it shows that you can also sort by if a file size is greater than a certain value and not just if the size is smaller than like the example prior.
 
 example 3)
 
