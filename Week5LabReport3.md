@@ -203,7 +203,7 @@ output:
 ./technical/911report/chapter-11.txt
 ```
 
-This command shows all files that match the name chaptEr through a case insensitive search. This is useful because it shows that if you are looking for files but make a mistake in the command line, it won't affect your search.
+This command shows all files that match the name chaptEr through a case insensitive search. This is useful because it shows that if you are looking for files but make a caps mistake in the command line, it won't affect your search.
 
 example 2)
 
