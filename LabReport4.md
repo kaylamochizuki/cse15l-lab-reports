@@ -3,8 +3,8 @@ Kayla Mochizuki
 ---
 ## Part 1: Changing the name of the start parameter and its uses to base
 
-<:> <%> s </> s t a r t </> b a s e g <enter>
-<:> w q <enter>
+<:> <%> s </> s t a r t </> b a s e g (enter)
+<:> w q (enter)
 
 total commands = 20
   
