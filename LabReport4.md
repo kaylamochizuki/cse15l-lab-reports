@@ -38,4 +38,4 @@ total commands = 20
   - I would perfer the second method because I would be starting in the remote server and wouldn't need to keep using scp to move my files from local to remote.
   
  Question 2: What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
-  - If I was working on a really big project with many files and lines, I would choose the first method instead. This is because working locally I would be able to make changes directly in the files and wouldn't need to work in the terminal. Though if the project wasn't that big I would choose the second method for convenience of making changes directly in the remote server
+  - If I was working on a really big project with many files and lines, I would choose the first method instead. This is because working locally I wouldn't need to work in the terminal. Though if the project wasn't that big I would choose the second method for convenience of making changes directly in the remote server
