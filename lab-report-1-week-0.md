@@ -1,3 +1,3 @@
-![Image](cse15lsc.png)
+![Image](images/cse15lsc.png)
 
 ## Huh?
