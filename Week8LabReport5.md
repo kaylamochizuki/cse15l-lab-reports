@@ -50,15 +50,15 @@ fi
 
 Example 1)
 
-![screenshot](ex1_week8.png)
+![screenshot](images/ex1_week8.png)
 
 Example 2)
 
-![screenshot](ex2_week8.png)
+![screenshot](images/ex2_week8.png)
 
 Example 3)
 
-![screeshot](ex3_week8.png)
+![screeshot](images/ex3_week8.png)
 
 ---
 ## Trace of Example 2
