@@ -11,7 +11,7 @@ Link: https://code.visualstudio.com/download
 
 - Download the correct version for your computer
 
-![screenshot](Lab1img1.png)
+![screenshot](images/Lab1img1.png)
 
 - After downloading, your VScode should appear similarly to the one above
 
@@ -28,7 +28,7 @@ Link: https://code.visualstudio.com/download
 		- If you do not want to change the password you use in MyTritonLink, make sure to switch it to “No”
 		- If you have done the above, position your cursor at the end of your confirm password and click return/enter
 
-![screenshot](Lab1img3.png)
+![screenshot](images/Lab1img3.png)
 
 
 - Your password change may take 15 minutes to process before you are able to try connecting remotely
@@ -37,7 +37,7 @@ Link: https://code.visualstudio.com/download
 
 - To begin Remotely connecting, open a terminal
 
-![screenshot](Lab1img2.png)
+![screenshot](images/Lab1img2.png)
 
 - Type in the command: 
 ```
@@ -91,7 +91,7 @@ class WhereAmI {
 }
 ```	
 - In your terminal write the following commands:
-	![screenshot](Lab1img4.png)
+	![screenshot](images/Lab1img4.png)
 - Now using scp, in your terminal write: 
 ```
 scp WhereAmI.java coursespecific_accountname@ieng.ucsd.edu:~/
@@ -122,7 +122,7 @@ scp public_file_name coursespecific_accountname@ieng.ucsd.edu:~/.ssh/authorized_
 ```
 - You now will no longer need to enter a password when loging in remotely
 	
-	![screenshot](Lab1img5.png)
+	![screenshot](images/Lab1img5.png)
 	
 ## PART 6: Optimizing Remote Running
 
@@ -132,7 +132,7 @@ Some useful shortcuts to use when working remotely:
 	- you can use semicolon to run multiple commands on one line
 	- ex)
 		
-![screenshot](Lab1img6.png)
+![screenshot](images/Lab1img6.png)
 
 	
 
