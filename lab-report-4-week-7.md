@@ -8,20 +8,20 @@ Kayla Mochizuki
 
 total commands = 20
   
-![screenshot](lab7command.png)
+![screenshot](images/lab7command.png)
 
 - this command changes all "start"s in the DocSearchServer.java to "base"
   
-![screenshot](lab7changes.png)
+![screenshot](images/lab7changes.png)
   
 - this shows the changes made to the static method List
 
   original code for the method:
  
-  ![screenshot](lab7og.png)
+  ![screenshot](images/lab7og.png)
 
 
-![screenshot](lab7save.png)
+![screenshot](images/lab7save.png)
 
 - this command saves the changes made to the file, DocSearchServer.java
 
