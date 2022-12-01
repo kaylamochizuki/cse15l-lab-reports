@@ -57,19 +57,19 @@ class SearchEngine {
     }
 }
 ```
-![screenshot](searchEngineAddPineapple.png)
+![screenshot](images/searchEngineAddPineapple.png)
 
 - my method handleRequest is being called
 - the relevent argument to my method is the URL which in this case is localhost:4002/add?s=pineapple
 - the argument "pineapple" is added to alst once SearchEngine is done processing
 
-![screenshot](searchEngineAddApple.png)
+![screenshot](images/searchEngineAddApple.png)
 
 - my method handleRequest is being called
 - the relevent argument to my method is the URL which in this case is localhost:4002/add?s=apple
 - the argument "apple" is added to alst once SearchEngine is done processing
 
-![screenshot](searchEngineSearchApp.png)
+![screenshot](images/searchEngineSearchApp.png)
 
 - my method handleRequest is being called
 - the relevent arguments to my method is localhost:4002/search?s=app
@@ -84,11 +84,11 @@ class SearchEngine {
 
 Failure inducing input:
 
-![screenshot](junitTestRIP.png)
+![screenshot](images/junitTestRIP.png)
 
 Symptom(actual output): 
 
-![screenshot](junitTestRIPOutput.png)
+![screenshot](images/junitTestRIPOutput.png)
 
 Expected: 
 ```
@@ -96,11 +96,11 @@ Expected:
 ```
 Bug: The for loop is trying to change the elements one at a time. I had to make it where the elements on opposite sides would switch with each other, so I would be changing two elements at a time.
 
-![screenshot](RIPCode.png)
+![screenshot](images/RIPCode.png)
 
 Fixed Code:
 
-![screenshot](RIPFixedCode.png)
+![screenshot](images/RIPFixedCode.png)
 
 Correlation: Once the for loop tried to change the later half of the array, the first halves elements are already changed, so the later halves elements will stay the same. This means that instead of the values flipping, only one side is changing it's value.
 
@@ -110,11 +110,11 @@ Correlation: Once the for loop tried to change the later half of the array, the 
 
 Failure inducing inputs:  
 
-![screenshot](junitTestTM.png)
+![screenshot](images/junitTestTM.png)
 
 Symptom(actual output): 
 
-![screenshot](TMOutputU.png)
+![screenshot](images/TMOutputU.png)
 
 Expected:
 ```
@@ -122,11 +122,11 @@ Expected:
 ```
 Bug: The index1 count was counting in places it shouldn't be. In the 3rd while loop in the code it should've been adding 1 to index2 but was instead adding 1 to index1.
 
-![screenshot](MBadCode.png)
+![screenshot](images/MBadCode.png)
 
 Fixed Code:
 
-![screenshot](MFixedCode.png)
+![screenshot](images/MFixedCode.png)
 
 
 Correlation: Because index2 was not being added, the while loop countinued running because it never reached the condition for it to end.
